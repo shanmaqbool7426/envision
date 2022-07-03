@@ -1,6 +1,6 @@
 {
-  "name": "react-app",
   "homepage": "https://shanmaqbool7426.github.io/envision",
+  "name": "react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
