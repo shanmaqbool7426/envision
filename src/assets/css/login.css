@@ -1,0 +1,268 @@
+	.form {
+		position: relative;
+	}
+
+	.submit-btn {
+		width: 205px;
+		background: linear-gradient(107.92deg, #B60F66 -25.97%, #FE904B 100%), #FFFFFF !important;
+		border-radius: 7px !important;
+		font-size: large;
+		color: white !important;
+		padding: 10px;
+		border: none;
+	}
+	.auth-logo{
+		/* margin-top: 62px; */
+		width:35%;
+		height: auto;
+	}
+
+	.vertical-center {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0px 30px 0;
+
+	}
+
+	.login-icons {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.login-icons .fa-google {
+	border: 1px solid #EE7225;
+    padding: 9px 10px;
+    height: min-content;
+    font-size: 16px;
+    color: #EE7225;
+    border-radius: 4px;
+    margin: 0 10px;
+	}
+
+	.login-icons .fa-facebook-f {
+		border: 1px solid #EE7225;
+		padding: 9px;
+		color: #EE7225;
+		width: 38px;
+		border-radius: 4px;
+		margin: 0 10px;
+	}
+
+
+	.forget-password {
+		text-align: right;
+		text-decoration: none;
+		color: rgba(51, 51, 51, 0.6);
+	}
+
+	.sign-in-options {
+		margin: 0;
+		text-align: center;
+	}
+
+	.sign-in-options::before {
+		content: '';
+		position: absolute;
+		width: 35px;
+		height: 2px;
+		top: 12px;
+		left: -30px;
+		background-color: rgba(238, 114, 37, 1);
+	}
+
+
+	.sign-in-options::after {
+		content: '';
+		position: absolute;
+		width: 35px;
+		height: 2px;
+		top: 12px;
+		right: -30px;
+		background-color: rgba(238, 114, 37, 1);
+	}
+
+	.login-card {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		min-width: 0;
+		word-wrap: break-word;
+		background-color: #fff;
+		background-clip: border-box;
+		border: 1px solid rgba(0, 0, 0, .125);
+		max-width: 700px;
+		margin: 40px auto;
+		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+		border-radius: 9px;
+		padding: 20px 30px 100px;
+	}
+
+	.no-acc--login {
+		margin: 40px 0;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.no-acc--login p {
+		font-size: 16px;
+		line-height: 20px;
+		color: #868686;
+	}
+
+	.no-acc--login span a {
+		color: #EE7225 !important;
+		font-weight: 500 !important;
+		text-decoration: none !important;
+	}
+
+	.sign-up-info {
+		font-size: 14px;
+		line-height: 19px;
+		color: #868686;
+	}
+
+	.password-requirements {
+		background-color: rgba(238, 114, 37, 0.1);
+		margin-top: 10px;
+		color: rgba(238, 114, 37, 1);
+		padding: 5px 10px;
+		width: 100%;
+		display: block;
+	}
+
+	.password-requirements ul {
+		list-style-type: none;
+		padding-left: 0;
+		color: rgba(238, 114, 37, 1);
+		margin: 0;
+	}
+
+	.input-filed-icon {
+		width: 40px;
+		position: absolute;
+		top: 28px;
+		left: 10px;
+		z-index: 2;
+	}
+
+	.input-filed-icon-psw {
+		width: 40px;
+		position: absolute;
+		top: 23px;
+		left: 13px;
+		z-index: 2;
+	}
+
+	.input-field-style>div>div {
+		border-radius: 9px;
+	}
+
+	/* .input-field-style>div>div fieldset:focus{
+	border: 1px solid orange;
+	} */
+	.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+		border: 1px solid #EE7225 !important;
+	}
+
+	.input-field-style label {
+		padding: 0 0 0 45px;
+	}
+
+	.input-field-style input {
+		padding-left: 65px;
+		border-radius: 10px;
+	}
+
+	.input-field-phone input {
+		/* padding-left: 65px; */
+		color: #EE7225;
+		border-radius: 10px;
+	}
+
+	.input-field-phone label {
+		padding: 0 0 0 45px;
+		color: black !important;
+	}
+
+	.input-field-phone label.MuiInputLabel-shrink {
+		padding: 0;
+		color: black !important;
+	}
+
+	.input-field-style label.MuiInputLabel-shrink {
+		padding: 0;
+		color: black !important;
+	}
+
+	.input-field-phone label.MuiInputLabel-shrink {
+		padding: 0;
+		color: #EE7225 !important;
+	}
+
+	.page-loader {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: rgba(96, 93, 93, 0.6);
+		width: 100%;
+	}
+
+	.metro {
+		border: none !important;
+	}
+
+	.input-passowrd {
+		margin-left: 2px !important;
+	}
+
+	.dial_code {
+		height: 57px;
+		width: 15% !important;
+		margin-right: 10PX;
+		margin-top: 15px
+	}
+
+	.MuiSelect-icon {
+		display: none !important;
+	}
+
+	.MuiSvgIcon-fontSizeMedium {
+		color: #EE7225 !important;
+	}
+
+	.link-color {
+		color: #EE7225 !important;
+	}
+
+
+	select::-ms-expand {
+		display: none;
+	}
+
+	select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		text-indent: 1px;
+		text-overflow: '';
+		border-radius: 6px;
+		border-color: #868686;
+		color: #868686;
+		text-align: center;
+	}
+
+
+	select:focus,
+	select:focus-visible {
+		outline-color: #EE7225;
+	}
+
+	.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+		color: black !important;
+	}

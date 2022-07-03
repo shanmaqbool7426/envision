@@ -1,0 +1,79 @@
+/*Global*/
+    /*Global*/
+    /*Header*/
+    /*Navbar*/
+    .navbar{
+      background: linear-gradient(107.92deg, #B60F66 -25.97%, #FE904B 100%), #FFFFFF;
+    box-shadow: 0px -3px 15px rgba(0, 0, 0, 0.05);
+    }
+    .nav-link{
+    font-family: 'DM Sans' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    }
+    .signin-properties{
+    background: #FF8864;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    }
+    .sign-up-properties{
+    background: #FFFFFF;
+    box-shadow: 0px -3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #F6824E;
+    padding: 0.5rem 1rem;
+    }
+    /* .header-btns .sign-in, .header-btns .sign-up{
+      margin: 0 1rem;
+    } */
+    .header-btns .sign-up{
+      margin: 0 2rem;
+    }
+    .fa-bars{
+      color: white;
+    }
+    .fa-bars:before {
+      content: "\f0c9";
+    }
+    .navbar-toggler:focus {
+      text-decoration: none;
+      box-shadow: none !important;
+      border: 2px solid white !important;
+    }
+    .navbar-toggler{
+      border: 2px solid white;
+    }
+    @media (min-width: 768px){
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        /* flex-basis: auto; */
+        justify-content: space-between !important;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+    }
+    .header-btns .sign-in, .header-btns .sign-up{
+      margin: 0 1rem;
+    }
+    
+    }
+ 
+    /*Index Page*/
